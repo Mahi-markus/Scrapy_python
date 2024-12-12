@@ -1,0 +1,56 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Scrapy
+scrapy_project/scrapy_project/spiders/__pycache__/
+scrapy_project/scrapy_project/spiders/.pytest_cache/
+scrapy_project/scrapy_project/spiders/.tox/
+scrapy_project/scrapy_project/spiders/.coverage
+scrapy_project/scrapy_project/spiders/.nox/
+scrapy_project/scrapy_project/spiders/.hypothesis/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+.ENV/
+
+# Docker
+*.db
+*.tar
+*.log
+docker-compose.override.yml
+
+# PostgreSQL
+*.db
+*.sql
+*.dump
+*.bak
+
+# Database files (PostgreSQL)
+*.pgsql
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Other
+*.csv
+*.xlsx
+*.pdf
