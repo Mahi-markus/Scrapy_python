@@ -33,10 +33,15 @@ class ScrapyProjectPipeline:
         try:
             session = self.Session()
             product = Product(
-                name=item['name'],
-                price=item['price'],
-                url=item['url'],
-                image_path=image_filename
+                name=item.get('name', 'Unknown Name'),
+                rating=float(item.get('rating', 0)),  # Default to 0 if rating is missing
+                location=item.get('location', 'Unknown Location'),
+                latitude=float(item.get('latitude', 0)),  # Default to 0 if latitude is missing
+                longitude=float(item.get('longitude', 0)),  # Default to 0 if longitude is missing
+                room_type=item.get('room_type', 'Unknown Room Type'),
+                price=item.get('price', 'Unknown Price'),
+                image_path=image_filename,
+                url=item.get('url', 'Unknown URL')
             )
             session.add(product)
             session.commit()

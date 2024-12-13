@@ -1,3 +1,4 @@
 scrapy
 sqlalchemy
 psycopg2-binary
+scrapy-fake-useragent
