@@ -111,3 +111,12 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+
+FEEDS = {
+    'hotels_data.json': {
+        'format': 'json',
+        'encoding': 'utf8',
+        'indent': 4,
+    }
+}

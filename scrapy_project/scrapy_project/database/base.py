@@ -7,17 +7,17 @@ Base = declarative_base()
 engine = create_engine(DATABASE_URL)
 
 class Product(Base):
-    __tablename__ = 'products1'
-    id = Column(Integer, primary_key=True, autoincrement=True,nullable=True)
-    name = Column(String, nullable=True)          # Property title
-    rating = Column(Float, nullable=True)          # Property rating
-    location = Column(String, nullable=True)       # Property location
-    latitude = Column(Float, nullable=True)        # Geospatial latitude
-    longitude = Column(Float, nullable=True)       # Geospatial longitude
-    room_type = Column(String, nullable=True)      # Room type
-    price = Column(String, nullable=True)         # Price details
-    image_path = Column(String, nullable=True)    # Path to the image file
-    url = Column(String, nullable=True)           # URL to the property page
+    __tablename__ = 'hotels'
+    id = Column(Integer, primary_key=True, autoincrement=True)  # Auto-incremented unique ID
+    hotel_id = Column(String, nullable=False)                  # Unique hotel identifier
+    hotel_name = Column(String, nullable=True)                 # Name of the hotel
+    rating = Column(Float, nullable=True)                      # Hotel rating
+    address = Column(String, nullable=True)                    # Hotel address
+    latitude = Column(Float, nullable=True)                    # Latitude
+    longitude = Column(Float, nullable=True)                   # Longitude
+    room_type = Column(String, nullable=True)                  # Room type information
+    price = Column(String, nullable=True)                      # Price details
+    image_path = Column(String, nullable=True)                 # Path to the downloaded image
 
 # Create all tables
 Base.metadata.create_all(engine)

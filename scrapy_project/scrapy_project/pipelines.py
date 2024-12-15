@@ -15,7 +15,7 @@ class ScrapyProjectPipeline:
         # Download and save images
         image_url = item.get('image_url')
         if not image_url:
-            raise DropItem(f"Missing image URL for {item['name']}")
+            raise DropItem(f"Missing image URL for {item['hotel_name']}")
 
         try:
             response = requests.get(image_url, stream=True)
@@ -33,21 +33,21 @@ class ScrapyProjectPipeline:
         try:
             session = self.Session()
             product = Product(
-                name=item.get('name', 'Unknown Name'),
-                rating=float(item.get('rating', 0)),  # Default to 0 if rating is missing
-                location=item.get('location', 'Unknown Location'),
-                latitude=float(item.get('latitude', 0)),  # Default to 0 if latitude is missing
-                longitude=float(item.get('longitude', 0)),  # Default to 0 if longitude is missing
+                hotel_id=item.get('hotel_id', 'Unknown Hotel ID'),
+                hotel_name=item.get('hotel_name', 'Unknown Hotel Name'),
+                rating=float(item.get('rating', 0)),  # Default rating to 0 if missing
+                address=item.get('address', 'Unknown Address'),
+                latitude=float(item.get('latitude', 0)),  # Default latitude to 0 if missing
+                longitude=float(item.get('longitude', 0)),  # Default longitude to 0 if missing
                 room_type=item.get('room_type', 'Unknown Room Type'),
                 price=item.get('price', 'Unknown Price'),
-                image_path=image_filename,
-                url=item.get('url', 'Unknown URL')
+                image_path=image_filename
             )
             session.add(product)
             session.commit()
         except Exception as e:
             session.rollback()
-            raise DropItem(f"Error saving {item['name']} to database: {str(e)}")
+            raise DropItem(f"Error saving {item['hotel_name']} to database: {str(e)}")
         finally:
             session.close()
 

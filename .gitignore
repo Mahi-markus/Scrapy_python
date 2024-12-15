@@ -54,3 +54,8 @@ Thumbs.db
 *.csv
 *.xlsx
 *.pdf
+
+
+##images
+
+images/
