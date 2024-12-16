@@ -1712,4 +1712,125 @@
     "price": 56,
     "image_url": "https://ak-d.tripcdn.com/images/hotel/440000/439463/1d79cd06790d41d1b38a2b94033666bf_R_250_250_R5_D.jpg_.webp"
 }
+][
+{
+    "title": "Hotel Transit Kuala Lumpur",
+    "rating": "4.0",
+    "location": "Near Petronas Twin Towers|China Town",
+    "latitude": 3.14603,
+    "longitude": 101.701502,
+    "room_type": "Standard Twin Room",
+    "price": 20,
+    "image_url": "https://ak-d.tripcdn.com/images/fd/hotel/g3/M04/EE/11/CggYGladvCGAfBRKACLHMD5ZKqw813_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Neu Suites @ 3RdNvenue by Perfect Host",
+    "rating": "4.0",
+    "location": "Near Petronas Twin Towers|Kuala Lumpur City Centre",
+    "latitude": 3.162976,
+    "longitude": 101.737157,
+    "room_type": "Standard Studio",
+    "price": 13,
+    "image_url": "https://ak-d.tripcdn.com/images/0584g12000epl1upi6C6B_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Pacific Express Hotel Central Market Kuala Lumpur",
+    "rating": "4.1",
+    "location": "Near Petronas Twin Towers|China Town",
+    "latitude": 3.146739,
+    "longitude": 101.695794,
+    "room_type": "Standard Queen Room without Window",
+    "price": 22,
+    "image_url": "https://ak-d.tripcdn.com/images/220i0g0000007z6k5E71E_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Berjaya Times Square Hotel, Kuala Lumpur",
+    "rating": "4.3",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.142301,
+    "longitude": 101.709861,
+    "room_type": "Superior Room",
+    "price": 69,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc6412000b25hrwx63BD_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Tamu Hotel & Suites Kuala Lumpur",
+    "rating": "4.4",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.163317,
+    "longitude": 101.702753,
+    "room_type": "Standard Double Room",
+    "price": 55,
+    "image_url": "https://ak-d.tripcdn.com/images/200k12000000shsvy8C51_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Royce Residence Kuala Lumpur by WYATT",
+    "rating": "4.4",
+    "location": "Near Petronas Twin Towers|Kuala Lumpur City Centre",
+    "latitude": 3.16292,
+    "longitude": 101.714145,
+    "room_type": "Deluxe King Suite - City View | Bathtub | Balcony",
+    "price": 73,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc3n12000du01tyn1139_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "M Resort & Hotel Kuala Lumpur",
+    "rating": "4.6",
+    "location": "Near Phileo Damansara Metro Station",
+    "latitude": 3.129842,
+    "longitude": 101.644515,
+    "room_type": "Standard Block View King Room",
+    "price": 69,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc1e12000bl3iljm0034_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Cubic Botanical Suites by HomeBrickz",
+    "rating": "4.2",
+    "location": "Near Pantai Dalam Metro Station|Mid Valley City",
+    "latitude": 3.093546,
+    "longitude": 101.666547,
+    "room_type": "King Suite With Kitchenette",
+    "price": 28,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc0y12000dsazucp01E6_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "JW Marriott Hotel Kuala Lumpur",
+    "rating": "4.6",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.147785,
+    "longitude": 101.713885,
+    "room_type": "Superior Twin Room",
+    "price": 138,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc4h12000bkvpq8fDE30_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Izumi Hotel Bukit Bintang Kuala Lumpur",
+    "rating": "4.1",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.147056,
+    "longitude": 101.710116,
+    "room_type": "Standard Double Room, Windowless",
+    "price": 30,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc0d12000ean182sCA0B_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Eaton Residences @ KLCC by VigourGT",
+    "rating": "4.8",
+    "location": "Near Petronas Twin Towers|Kuala Lumpur City Centre",
+    "latitude": 3.151349,
+    "longitude": 101.719798,
+    "room_type": "Eaton At KLCC With Twin Tower View & Infinity Pool_2bedroom With 1 Bathroom.",
+    "price": 86,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc3512000fagnfka7F26_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Expressionz KLCC by Mana-Mana",
+    "rating": "4.1",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.171519,
+    "longitude": 101.712077,
+    "room_type": "Deluxe Twin Room",
+    "price": 19,
+    "image_url": "https://ak-d.tripcdn.com/images/0222x12000ascnfa19074_R_250_250_R5_D.jpg_.webp"
+}
 ]

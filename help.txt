@@ -1,7 +1,7 @@
 docker exec -it postgres_db psql -U admin -d scraper_db
 docker exec -it postgres_db  psql -U admin scraper_db
 
-select *from hotels;
+select *from hotels7;
 
 python -m venv venv
 source venv/bin/activate

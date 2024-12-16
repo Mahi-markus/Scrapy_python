@@ -43,6 +43,20 @@ docker-compose up --build
 This will set up the project and initiate the scraping process.
 The scraper will automatically start upon running the docker-compose up --build command. You can monitor the logs to ensure data is being scraped and stored properly.
 
+## Checking the Database
+
+## To check the database and view the data in the table, open another terminal and run the following command:
+
+```bash
+docker exec -it postgres_db psql -U admin scraper_db
+```
+
+## Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels7 table:
+
+```bash
+select *from hotels7;
+```
+
 ## Testing and Coverage
 
 ## Run Tests
