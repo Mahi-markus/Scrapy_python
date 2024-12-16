@@ -116,7 +116,7 @@ class TripHotelsSpider(scrapy.Spider):
                         "hotel_id": hotel_basic_info.get("hotelId"),
                         "hotel_name": hotel_basic_info.get("hotelName"),
                         "rating": comment_info.get("commentScore"),
-                        "address": position_info.get("positionName"),
+                        "location": position_info.get("positionName"),
                         "latitude": coordinate.get("lat"),
                         "longitude": coordinate.get("lng"),
                         "room_type": room_info.get("physicalRoomName"),

@@ -7,12 +7,12 @@ Base = declarative_base()
 engine = create_engine(DATABASE_URL)
 
 class Product(Base):
-    __tablename__ = 'hotels'
+    __tablename__ = 'hotels4'
     id = Column(Integer, primary_key=True, autoincrement=True)  # Auto-incremented unique ID
-    hotel_id = Column(String, nullable=False)                  # Unique hotel identifier
-    hotel_name = Column(String, nullable=True)                 # Name of the hotel
+    #hotel_id = Column(String, nullable=False)                  # Unique hotel identifier
+    title = Column(String, nullable=True)                 # Name of the hotel
     rating = Column(Float, nullable=True)                      # Hotel rating
-    address = Column(String, nullable=True)                    # Hotel address
+    location = Column(String, nullable=True)                    # Hotel address
     latitude = Column(Float, nullable=True)                    # Latitude
     longitude = Column(Float, nullable=True)                   # Longitude
     room_type = Column(String, nullable=True)                  # Room type information
