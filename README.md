@@ -45,13 +45,13 @@ The scraper will automatically start upon running the docker-compose up --build 
 
 ## Checking the Database
 
-## To check the database and view the data in the table, open another terminal and run the following command:
+### To check the database and view the data in the table, open another terminal and run the following command:
 
 ```bash
 docker exec -it postgres_db psql -U admin scraper_db
 ```
 
-## Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels7 table:
+### Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels7 table:
 
 ```bash
 select *from hotels7;
