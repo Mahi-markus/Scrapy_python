@@ -33,7 +33,7 @@ class ScrapyProjectPipeline:
         try:
             session = self.Session()
             product = Product(
-                title=item.get('hotel_name', 'Unknown Hotel'),
+                title=item.get('title', 'Unknown Hotel'),
                 rating=float(item.get('rating', 0)),  # Default rating to 0 if missing
                 location=item.get('location', 'Unknown Address'),
                 latitude=float(item.get('latitude', 0)),  # Default latitude to 0 if missing

@@ -5,3 +5,6 @@ select *from hotels;
 
 python -m venv venv
 source venv/bin/activate
+
+
+ docker-compose run --rm scrapy python -m unittest discover

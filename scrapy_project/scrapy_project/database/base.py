@@ -7,7 +7,7 @@ Base = declarative_base()
 engine = create_engine(DATABASE_URL)
 
 class Product(Base):
-    __tablename__ = 'hotels4'
+    __tablename__ = 'hotels7'
     id = Column(Integer, primary_key=True, autoincrement=True)  # Auto-incremented unique ID
     #hotel_id = Column(String, nullable=False)                  # Unique hotel identifier
     title = Column(String, nullable=True)                 # Name of the hotel

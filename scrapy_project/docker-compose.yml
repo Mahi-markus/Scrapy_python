@@ -21,7 +21,7 @@ services:
     volumes:
       - .:/app
       - ./images:/images # Ensure the images folder is shared between host and container
-    command: ["scrapy", "crawl", "trip"]
+    command: ["sh", "-c", "scrapy crawl trip"]
 
 volumes:
   db_data:

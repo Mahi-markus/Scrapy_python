@@ -20,4 +20,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY scrapy_project/ /app/scrapy_project/
 
 # Set the default command to run the Scrapy spider
-CMD ["scrapy", "crawl", "trip"]
+CMD ["scrapy", "crawl", "trip","python", "-m", "unittest", "test_spider.py","coverage", "run"]
