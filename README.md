@@ -22,7 +22,7 @@ This project is a Scrapy-based web scraper for extracting property information f
 
 ## Installation and Setup
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone https://github.com/Mahi-markus/Scrapy_python.git
@@ -30,6 +30,8 @@ git clone https://github.com/Mahi-markus/Scrapy_python.git
 ```
 
 ## Create Virtual Environment:
+
+Now open a terminal and run the following commands to create vm.
 
 ```bash
 python -m venv venv          #On Windows:
@@ -41,15 +43,13 @@ python3 -m venv venv        #On macOS/Linux:
 source venv/bin/activate
 
 ```
-
-
-2. Navigate to the project directory:
+- Navigate to the project directory:
 
 ```bash
 cd scrapy_project
 ```
 
-3. Build and start the Docker containers:
+- Build and start the Docker containers:
 
 ```bash
 docker-compose up --build
@@ -70,7 +70,7 @@ docker exec -it postgres_db psql -U admin scraper_db
 Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels7 table:
 
 ```bash
-select *from hotels7;
+select *from hotels_info;
 ```
 
 ## Testing and Coverage
