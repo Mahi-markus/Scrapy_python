@@ -29,7 +29,7 @@ git clone https://github.com/Mahi-markus/Scrapy_python.git
 
 ```
 
-## Create Virtual Environment:
+## Create Virtual Environment and Run the project:
 
 Now open a terminal and run the following commands to create vm.
 
@@ -43,19 +43,19 @@ python3 -m venv venv        #On macOS/Linux:
 source venv/bin/activate
 
 ```
-- Navigate to the project directory:
+- **Navigate to the project directory:**
 
 ```bash
 cd scrapy_project
 ```
 
-- Build and start the Docker containers:
+- **Build and start the Docker containers**:
 
 ```bash
 docker-compose up --build
 ```
 
-This will set up the project and initiate the scraping process.
+This will set up the project and initiate the **scraping process.**
 The scraper will automatically start upon running the docker-compose up --build command. You can monitor the logs to ensure data is being scraped and stored properly.
 
 ## Checking the Database
