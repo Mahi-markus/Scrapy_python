@@ -1,4 +1,4 @@
-# Trip.com Property Scraper
+# Property Scraper
 
 This project is a Scrapy-based web scraper for extracting property information from [Trip.com](https://uk.trip.com/hotels/?locale=en-GB&curr=GBP) and storing the data in a PostgreSQL database using SQLAlchemy. The system is designed to dynamically gather property data and save it for future use.
 
