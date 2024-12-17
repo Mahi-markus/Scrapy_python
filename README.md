@@ -101,6 +101,15 @@ Generate Test Report
 docker-compose run --rm scrapy coverage report
 ```
 
+## Termination(Optional):
+In order stop and remove the container ,open the specific terminal where docker is running and  run the following commands:
+
+```bash
+ctrl c
+docker-compose down
+
+```
+
 Directory Structure:
 
 - Scrapy Spider: Handles data scraping from Trip.com.
