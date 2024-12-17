@@ -20,7 +20,7 @@ This project is a Scrapy-based web scraper for extracting property information f
 
 ---
 
-## Installation and Setup
+## Installation and Setup Steps below:
 
 - Clone the repository:
 
