@@ -26,7 +26,22 @@ This project is a Scrapy-based web scraper for extracting property information f
 
 ```bash
 git clone https://github.com/Mahi-markus/Scrapy_python.git
+
 ```
+
+## Create Virtual Environment:
+
+```bash
+python -m venv venv          #On Windows:
+venv\Scripts\activate
+```
+
+```bash
+python3 -m venv venv        #On macOS/Linux:
+source venv/bin/activate
+
+```
+
 
 2. Navigate to the project directory:
 
@@ -48,6 +63,7 @@ The scraper will automatically start upon running the docker-compose up --build 
 To check the database and view the data in the table, open another terminal and run the following command:
 
 ```bash
+cd scrapy_project
 docker exec -it postgres_db psql -U admin scraper_db
 ```
 
@@ -67,7 +83,7 @@ Open another terminal and navigate to the project directory:
 cd scrapy_project
 ```
 
-Then run:
+Then run the following commands:
 
 ```bash
 docker-compose run --rm scrapy python -m unittest discover

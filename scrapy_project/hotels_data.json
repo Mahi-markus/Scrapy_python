@@ -1833,4 +1833,125 @@
     "price": 19,
     "image_url": "https://ak-d.tripcdn.com/images/0222x12000ascnfa19074_R_250_250_R5_D.jpg_.webp"
 }
+][
+{
+    "title": "Hotel Transit Kuala Lumpur",
+    "rating": "4.0",
+    "location": "Near Petronas Twin Towers|China Town",
+    "latitude": 3.14603,
+    "longitude": 101.701502,
+    "room_type": "Standard Twin Room",
+    "price": 20,
+    "image_url": "https://ak-d.tripcdn.com/images/fd/hotel/g3/M04/EE/11/CggYGladvCGAfBRKACLHMD5ZKqw813_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Mossaz Mana-Mana Suites Kuala Lumpur",
+    "rating": "4.1",
+    "location": "Near PJ Trade Centre|Damansara Perdana, Petaling Jaya",
+    "latitude": 3.166388,
+    "longitude": 101.615581,
+    "room_type": "Claymation Studio",
+    "price": 16,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc5k12000eesfv4tC37C_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Expressionz Leisure Suites KLCC",
+    "rating": "3.9",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.17154,
+    "longitude": 101.71214,
+    "room_type": "Premium Suite",
+    "price": 39,
+    "image_url": "https://ak-d.tripcdn.com/images/0200l1200090xw9l4C0CB_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Berjaya Times Square Hotel, Kuala Lumpur",
+    "rating": "4.3",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.142301,
+    "longitude": 101.709861,
+    "room_type": "Superior Room",
+    "price": 69,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc6412000b25hrwx63BD_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Kitez Hotel & Bunkz",
+    "rating": "3.6",
+    "location": "Near Petronas Twin Towers|China Town",
+    "latitude": 3.144772,
+    "longitude": 101.697325,
+    "room_type": "Deluxe Queen With Window",
+    "price": 15,
+    "image_url": "https://ak-d.tripcdn.com/images/0583412000d568xw1E9D1_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Sheraton Imperial Kuala Lumpur Hotel",
+    "rating": "4.4",
+    "location": "Near Petronas Twin Towers|Golden Triangle",
+    "latitude": 3.158793,
+    "longitude": 101.700025,
+    "room_type": "Guest Room, 2 Twin/Single Bed(s), City View",
+    "price": 94,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc3x12000f3bya2hA367_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "The Colony Skyline Suites KLCC",
+    "rating": "4.3",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.161293,
+    "longitude": 101.700861,
+    "room_type": "Queen Studio",
+    "price": 26,
+    "image_url": "https://ak-d.tripcdn.com/images/0202012000f5hhcij6BFA_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Sunway Putra Hotel Kuala Lumpur",
+    "rating": "4.4",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.166426,
+    "longitude": 101.692419,
+    "room_type": "Superior Room",
+    "price": 42,
+    "image_url": "https://ak-d.tripcdn.com/images/200g1c000001dmr8y1D1B_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Floresta Hotel Chinatown",
+    "rating": "3.9",
+    "location": "Near Chinatown Kuala Lumpur|China Town",
+    "latitude": 3.143714,
+    "longitude": 101.698531,
+    "room_type": "Superior Queen Room(Windowless)",
+    "price": 17,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc2b12000aiu8pkdA8FB_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Ceylonz Suites by MyKey Global",
+    "rating": "4.1",
+    "location": "Near Petronas Twin Towers",
+    "latitude": 3.148623,
+    "longitude": 101.702038,
+    "room_type": "Comfort Triple Studio",
+    "price": 29,
+    "image_url": "https://ak-d.tripcdn.com/images/0200x1200082sfy8gBD7B_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Hilton Kuala Lumpur",
+    "rating": "4.5",
+    "location": "Near Kuala Lumpur Sentral|KL Sentral",
+    "latitude": 3.135433,
+    "longitude": 101.685969,
+    "room_type": "Twin Deluxe Room",
+    "price": 98,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc4e12000bghs09r2707_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Neu Suites @ 3RdNvenue by Perfect Host",
+    "rating": "4.0",
+    "location": "Near Petronas Twin Towers|Kuala Lumpur City Centre",
+    "latitude": 3.162976,
+    "longitude": 101.737157,
+    "room_type": "Standard Studio",
+    "price": 15,
+    "image_url": "https://ak-d.tripcdn.com/images/0584g12000epl1upi6C6B_R_250_250_R5_D.jpg_.webp"
+}
 ]
