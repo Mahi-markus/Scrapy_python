@@ -67,7 +67,7 @@ cd scrapy_project
 docker exec -it postgres_db psql -U admin scraper_db
 ```
 
-Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels_info table:
+Once inside the PostgreSQL shell, use the following SQL query to check the data in the **hotels_info** table:
 
 ```bash
 select *from hotels_info;
@@ -75,9 +75,7 @@ select *from hotels_info;
 
 ## Testing and Coverage
 
-## Run Tests
-
-Open another terminal and navigate to the project directory:
+**Open another terminal and navigate to the project directory:**
 
 ```bash
 cd scrapy_project
