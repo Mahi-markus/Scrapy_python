@@ -6,11 +6,11 @@ This project is a Scrapy-based web scraper for extracting property information f
 
 ## Features
 
-- Scrapes property details like title, rating, location, latitude, longitude, room type, price, and images.
-- Stores scraped data in a PostgreSQL database.
-- Saves images in a directory and references them in the database.
-- Automatically creates database tables and directory structures.
-- Provides robust testing and coverage reporting.
+- **Scrapes property details like title, rating, location, latitude, longitude, room type, price, and images.**
+- **Stores scraped data in a PostgreSQL database.**
+- **Saves images in a directory and references them in the database.**
+- **Automatically creates database tables and directory structures.**
+- **Provides robust testing and coverage reporting.**
 
 ---
 
@@ -60,7 +60,7 @@ The scraper will automatically start upon running the docker-compose up --build 
 
 ## Checking the Database
 
-To check the database and view the data in the table, open another terminal and run the following command:
+**To check the database and view the data in the table, open another terminal and run the following command:**
 
 ```bash
 cd scrapy_project
@@ -83,26 +83,26 @@ Open another terminal and navigate to the project directory:
 cd scrapy_project
 ```
 
-Then run the following commands:
+**Then run the following commands:**
 
 ```bash
 docker-compose run --rm scrapy python -m unittest discover
 ```
 
-Run Coverage:
+**Run Coverage:**
 
 ```bash
 docker-compose run --rm scrapy coverage run -m unittest discover
 ```
 
-Generate Test Report
+**Generate Test Report**
 
 ```bash
 docker-compose run --rm scrapy coverage report
 ```
 
 ## Termination(Optional):
-In order stop and remove the container ,open the specific terminal where docker is running and  run the following commands:
+- **In order stop and remove the container ,open the specific terminal where docker is running and  run the following commands**:
 
 ```bash
 ctrl c
