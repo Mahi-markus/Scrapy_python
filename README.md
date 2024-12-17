@@ -15,7 +15,7 @@ This project is a Scrapy-based web scraper for extracting property information f
 ---
 
 ## Prerequisites
-
+- Python 3.8+ (for local development)
 - [Docker](https://www.docker.com/) installed on your system.
 
 ---
