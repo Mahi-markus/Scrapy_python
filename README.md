@@ -67,7 +67,7 @@ cd scrapy_project
 docker exec -it postgres_db psql -U admin scraper_db
 ```
 
-Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels7 table:
+Once inside the PostgreSQL shell, use the following SQL query to check the data in the hotels_info table:
 
 ```bash
 select *from hotels_info;
@@ -110,9 +110,9 @@ docker-compose down
 
 ```
 
-Directory Structure:
+## Directory Structure:
 
-- Scrapy Spider: Handles data scraping from Trip.com.
-- Postgres Database: Stores scraped property details.
-- Image Directory: Automatically created to save property images.
-- SQLAlchemy Integration: Automates table creation and database interaction.
+- **Scrapy Spider (trip_spider.py)**: Handles data scraping from Trip.com.
+- **Postgres Database**: Stores scraped property details.
+- **Image Directory**: Automatically created to save property images( /images).
+- **SQLAlchemy Integration**: Automates table creation and database interaction.

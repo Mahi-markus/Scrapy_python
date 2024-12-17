@@ -119,4 +119,125 @@
     "price": 69,
     "image_url": "https://ak-d.tripcdn.com/images/0221z120009erkadkC867_R_250_250_R5_D.jpg_.webp"
 }
+][
+{
+    "title": "Yitingzhenshe Hotel (Beijing Qianmen)",
+    "rating": "4.6",
+    "location": "Near Tiananmen Square|Qianmen, The Temple Of Heaven and Chongwenmen",
+    "latitude": 39.893188804209196,
+    "longitude": 116.39254103364087,
+    "room_type": "Special Room",
+    "price": 29,
+    "image_url": "https://ak-d.tripcdn.com/images/0205i120008hhpl4bC66E_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Aerotel Beijing",
+    "rating": "4.3",
+    "location": "Near Beijing Daxing International Airport|Daxing Airpot",
+    "latitude": 39.51266027729959,
+    "longitude": 116.41447711473769,
+    "room_type": "Superior Double Room （Without Window)",
+    "price": 43,
+    "image_url": "https://ak-d.tripcdn.com/images/200i1b000001atzgvED54_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Beijing Xinqiao Hotel",
+    "rating": "4.5",
+    "location": "Near Tiananmen Square|Tian'anmen Square and Wangfujing Area",
+    "latitude": 39.900285762865344,
+    "longitude": 116.41064368161136,
+    "room_type": "Economy Room with Twin Beds (No Window)",
+    "price": 55,
+    "image_url": "https://ak-d.tripcdn.com/images/0200y120009lnkjx155A0_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "UrCove by HYATT Beijing Forbidden City",
+    "rating": "4.5",
+    "location": "Near Tiananmen Square|Tian'anmen Square and Wangfujing Area",
+    "latitude": 39.90890033019606,
+    "longitude": 116.40086586830249,
+    "room_type": "Smart Room (2 beds)",
+    "price": 55,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc6512000dctj681ECC2_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Quanzhongquan Hotel (Beijing Daxing International Airport)",
+    "rating": "4.7",
+    "location": "Near Beijing Daxing International Airport|Daxing Airpot",
+    "latitude": 39.55077678810106,
+    "longitude": 116.3577186027618,
+    "room_type": "Budget Twin Room (Without window)",
+    "price": 16,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc3r12000dl7tbz235D1_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "JW Marriott Hotel Beijing Central",
+    "rating": "4.6",
+    "location": "Near Tiananmen Square|Xidan and Financial Street Area",
+    "latitude": 39.894124833536445,
+    "longitude": 116.36944731007915,
+    "room_type": "Deluxe Room (2 Beds)",
+    "price": 124,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc2912000bl74keyC2B2_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Sunworld Dynasty Hotel Beijing",
+    "rating": "4.5",
+    "location": "Near The Palace Museum|Tian'anmen Square and Wangfujing Area",
+    "latitude": 39.91634387789027,
+    "longitude": 116.40600476352665,
+    "room_type": "Standard 2-bed Room",
+    "price": 68,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc2812000e3ifnskBC0F_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "CitiGO Hotel Sanyuanqiao Beijing",
+    "rating": "4.7",
+    "location": "Near Sanyuanqiao Metro Station|China International Exhibition Center Area",
+    "latitude": 39.95989778949662,
+    "longitude": 116.44867953255331,
+    "room_type": "Huange Double Bed Room",
+    "price": 54,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc3y12000c2ukniw8AAB_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "VOYAGE INTERNATIONAL HOTEL",
+    "rating": "4.9",
+    "location": "Near Beijing Capital International Airport|Capital Airport and New International Exhibition Center",
+    "latitude": 40.06121882066725,
+    "longitude": 116.58017738054029,
+    "room_type": "Elegant Queen Room",
+    "price": 77,
+    "image_url": "https://ak-d.tripcdn.com/images/0201f120008zf5bf9958C_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Radisson Hotel Beijing Daxing Airport",
+    "rating": "4.8",
+    "location": "Near Beijing Daxing International Airport|Daxing Airpot",
+    "latitude": 39.52426889857365,
+    "longitude": 116.40675156192997,
+    "room_type": "Superior Room",
+    "price": 49,
+    "image_url": "https://ak-d.tripcdn.com/images/1mc1i12000ditqhi66979_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "InterContinental Beijing Sanlitun",
+    "rating": "4.7",
+    "location": "Near Beijing Workers' Gymnasium|East Second Ring Workers' Stadium Area",
+    "latitude": 39.93156068617204,
+    "longitude": 116.44906712836578,
+    "room_type": "Vr Featured Double Bed Room (Cinema + Gaming)",
+    "price": 209,
+    "image_url": "https://ak-d.tripcdn.com/images/20070j000000aiy1lE2B2_R_250_250_R5_D.jpg_.webp"
+},
+{
+    "title": "Jingli Hongyizhan Hotel (Beijing Dongzhimen Sanlitun Branch)",
+    "rating": "4.6",
+    "location": "Near Beijing Workers' Gymnasium|East Second Ring Workers' Stadium Area",
+    "latitude": 39.937572759715124,
+    "longitude": 116.43865596824672,
+    "room_type": "Tatami Mini Room",
+    "price": 32,
+    "image_url": "https://ak-d.tripcdn.com/images/200m180000014r8dpC624_R_250_250_R5_D.jpg_.webp"
+}
 ]
